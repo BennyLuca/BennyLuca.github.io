@@ -1,0 +1,70 @@
+
+.filterDiv {
+  color: #ffffff;
+  text-align: center;
+  margin: 2px;
+  display: none; /* Hidden by default */
+}
+.filterDiv .thumbnail {
+    padding: 0;
+    margin-bottom: 30px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    transition: 0.15s ease-in-out;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.filterDiv .thumbnail:hover {
+    transform: translateY(-10px) scale(1.02);
+}
+
+.filterDiv .lightbox img {
+    border-radius: 4px 4px 0 0;
+}
+
+.filterDiv .caption{
+    padding: 26px 30px;
+    text-align: center;
+}
+
+.filterDiv .caption h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 0;
+}
+
+.filterDiv .caption p {
+    font-size: 12px;
+    color: #7b7d7d;
+    margin: 0;
+}
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+
+/* Style the buttons */
+.btn-2 {
+
+  background-color: #46B837 ;
+  padding: 5px  5px;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  margin: 5px auto;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+/* Add a light grey background on mouse-over */
+.btn-2:hover {
+  background-color: RoyalBlue;
+}
+
+/* Add a dark background to the active button */
+.btn-2.active {
+  background-color: #666;
+  color: white;
+}
+
